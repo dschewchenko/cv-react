@@ -1,5 +1,5 @@
 {
-  "main.css": "/cv-react/static/css/main.c3e1c948.chunk.css",
+  "main.css": "/cv-react/static/css/main.19f5948d.chunk.css",
   "main.js": "/cv-react/static/js/main.f7dcce1a.chunk.js",
   "main.js.map": "/cv-react/static/js/main.f7dcce1a.chunk.js.map",
   "runtime~main.js": "/cv-react/static/js/runtime~main.a326f71c.js",
@@ -7,8 +7,9 @@
   "static/js/2.1ac228b8.chunk.js": "/cv-react/static/js/2.1ac228b8.chunk.js",
   "static/js/2.1ac228b8.chunk.js.map": "/cv-react/static/js/2.1ac228b8.chunk.js.map",
   "index.html": "/cv-react/index.html",
-  "precache-manifest.62a7d86603b8d38d59a67697bb02fc2d.js": "/cv-react/precache-manifest.62a7d86603b8d38d59a67697bb02fc2d.js",
+  "precache-manifest.79449712a2995753734fbf7c28873080.js": "/cv-react/precache-manifest.79449712a2995753734fbf7c28873080.js",
   "service-worker.js": "/cv-react/service-worker.js",
-  "static/css/main.c3e1c948.chunk.css.map": "/cv-react/static/css/main.c3e1c948.chunk.css.map",
-  "static/media/ava.jpg": "/cv-react/static/media/ava.f325a44d.jpg"
+  "static/css/main.19f5948d.chunk.css.map": "/cv-react/static/css/main.19f5948d.chunk.css.map",
+  "static/media/ava.jpg": "/cv-react/static/media/ava.f325a44d.jpg",
+  "static/media/App.scss": "/cv-react/static/media/robert-bye.24fdc12f.jpg"
 }

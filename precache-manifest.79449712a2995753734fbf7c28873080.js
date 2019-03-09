@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "24fdc12f2fc82d24970c2d29a5f18ee4",
+    "url": "/cv-react/static/media/robert-bye.24fdc12f.jpg"
+  },
+  {
     "revision": "f325a44d1f9b2dbc375d7567066f5e40",
     "url": "/cv-react/static/media/ava.f325a44d.jpg"
   },
@@ -8,7 +12,7 @@ self.__precacheManifest = [
     "url": "/cv-react/static/js/runtime~main.a326f71c.js"
   },
   {
-    "revision": "ae904e364fa433a0cb99",
+    "revision": "7f5acd40a490950dd65e",
     "url": "/cv-react/static/js/main.f7dcce1a.chunk.js"
   },
   {
@@ -16,11 +20,11 @@ self.__precacheManifest = [
     "url": "/cv-react/static/js/2.1ac228b8.chunk.js"
   },
   {
-    "revision": "ae904e364fa433a0cb99",
-    "url": "/cv-react/static/css/main.c3e1c948.chunk.css"
+    "revision": "7f5acd40a490950dd65e",
+    "url": "/cv-react/static/css/main.19f5948d.chunk.css"
   },
   {
-    "revision": "ff7c301d7deec5c06c4a7a7b2f852eae",
+    "revision": "5a62577498413cb9596b68f7878ccfae",
     "url": "/cv-react/index.html"
   }
 ];

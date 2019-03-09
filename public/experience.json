@@ -1,0 +1,46 @@
+[
+  {
+    "company": "Keepsolid Inc.",
+    "position": "Frontend Team Lead",
+    "dateStart": "May 2018",
+    "dateEnd": "present",
+    "description": [
+      "Grow, develop, and lead team",
+      "Lead Frontend developer role and managing team",
+      "Develop sites, reusable modules",
+      "Design, build, and maintain efficient, reusable, and reliable code - Analyze and estimate implementation efforts",
+      "Research and evaluate technical options",
+      "Oversee the implementation of engineering best practices"
+    ]
+  },
+  {
+    "company": "Keepsolid Inc.",
+    "position": "Middle Frontend",
+    "dateStart": "October 2015",
+    "dateEnd": "May 2018",
+    "description": [
+      "Develop cross-browser sites, web apps",
+      "Design, build, and maintain efficient, reusable, and reliable code",
+      "Implementation of engineering best practices"
+    ]
+  },
+  {
+    "company": "Keepsolid Inc.",
+    "position": "Full-Stack Web Developer",
+    "dateStart": "May 2014",
+    "dateEnd": "October 2015",
+    "description": [
+      "Develop cross-browser sites",
+      "Develop dashboards with diagrams",
+      "DB queries",
+      "Integration of payment systems"
+    ]
+  },
+  {
+    "company": "Re-Bit",
+    "position": "Full-Stack Web Developer",
+    "dateStart": "November 2013",
+    "dateEnd": "March 2014",
+    "description": ["Develop cross-browser sites"]
+  }
+]

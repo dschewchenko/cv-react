@@ -1,0 +1,39 @@
+.skills {
+  text-align: center;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1.25rem 0;
+
+      h3 {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.competency__list {
+  list-style: none;
+  display: flex;
+  margin: 12px 0;
+  padding-left: 2px;
+
+  &__item {
+    display: block;
+    width: 10px;
+    height: 20px;
+    margin-right: 2px;
+    background-color: #888;
+    transform: skewX(-15deg);
+
+    &_filled {
+      background-color: #fff;
+    }
+  }
+}

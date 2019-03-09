@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/robert-bye.jpg) center center no-repeat;
+  background-position: cover;
+  background-attachment: fixed;
+
+  &:after {
+    content: "Photo by Robert Bye on Unsplash";
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.75rem;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.not-found {
+  a {
+    font-size: 1.2rem;
+  }
+}

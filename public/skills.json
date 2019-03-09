@@ -1,0 +1,42 @@
+[
+  {
+    "title": "HTML5, CSS3",
+    "description": "optimization, animations, Bootstrap, Bulma, Material",
+    "stars": 10
+  },
+  {
+    "title": "Vue.js",
+    "description": "Vuetify, Vue CLI, using with TS",
+    "stars": 9
+  },
+  {
+    "title": "React.js",
+    "description": "Redux, React Router, using with TS",
+    "stars": 7
+  },
+  {
+    "title": "Angular",
+    "description": "Angular Material, NgRx",
+    "stars": 9
+  },
+  {
+    "title": "JavaScript, TypeScript",
+    "description": "ES5, ES2015+, writing packages",
+    "stars": 9
+  },
+  {
+    "title": "Node.js",
+    "description": "Express, Fastify, Nest.js",
+    "stars": 9
+  },
+  {
+    "title": "PHP",
+    "description": "CodeIgniter, Laravel",
+    "stars": 8
+  },
+  {
+    "title": "Databases",
+    "description": "Mongo, PostgreSQL, MySQL",
+    "stars": 8
+  }
+]

@@ -22,7 +22,7 @@ function fetchSkills(): any {
   return (dispatch: Dispatch) => {
     dispatch(request());
     return axios
-      .get("/skills.json")
+      .get(`${process.env.PUBLIC_URL}/skills.json`)
       .then(({ data }) => dispatch(receive(data)));
   };
 }

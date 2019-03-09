@@ -1,16 +1,25 @@
 import React, { Component } from "react";
-import "./Skills.scss";
 import { connect } from "react-redux";
 import { Store } from "redux";
+import { Link } from "react-router-dom";
 import { AppState } from "../../store";
 import { fetchIfNeeded } from "../../store/actions/skills";
-import { SkillsState } from "../../store/reducers/skills";
+import { SkillsState, Skill } from "../../store/reducers/skills";
 import SkillItem from "./SkillItem";
+import "./Skills.scss";
 
 class Skills extends Component<SkillsProps> {
   public componentDidMount() {
     const { dispatch } = this.props;
     dispatch(fetchIfNeeded());
+  }
+
+  private static renderItems(items: Skill[]) {
+    if (items.length) {
+      return items.map(item => <SkillItem skill={item} key={item.title} />);
+    }
+
+    return "";
   }
 
   public render() {
@@ -21,10 +30,9 @@ class Skills extends Component<SkillsProps> {
         <h1>Skills</h1>
         {isFetching && items.length === 0 && <h2>Loading...</h2>}
         {!isFetching && items.length === 0 && <h2>Empty</h2>}
-        <div className="skills__list">
-          {items.length &&
-            items.map(item => <SkillItem skill={item} key={item.title} />)}
-        </div>
+        <div className="skills__list">{Skills.renderItems(items)}</div>
+
+        <Link to="/contacts">Show contacts</Link>
       </div>
     );
   }

@@ -5,20 +5,20 @@ import "./App.scss";
 import Profile from "./pages/profile/Profile";
 import Experience from "./pages/experience/Experience";
 import Skills from "./pages/skills/Skills";
-import Contact from "./pages/contact/Contact";
+import Contacts from "./pages/contacts/Contacts";
 import Footer from "./footer/Footer";
 
 export default class App extends Component {
   public render() {
     return (
-      <Router>
+      <Router basename="/cv-react">
         <div className="app">
           <main>
             <Switch>
               <Route exact path="/" component={Profile} />
-              <Route path="/experience" component={Experience} />
-              <Route path="/skills" component={Skills} />
-              <Route path="/contact" component={Contact} />
+              <Route exact path="/experience" component={Experience} />
+              <Route exact path="/skills" component={Skills} />
+              <Route exact path="/contacts" component={Contacts} />
               <Route
                 render={() => (
                   <div className="not-found container">

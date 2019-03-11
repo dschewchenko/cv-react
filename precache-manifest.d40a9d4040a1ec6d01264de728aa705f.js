@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/cv-react/static/js/runtime~main.a326f71c.js"
   },
   {
-    "revision": "87b1c498371429f6b79e",
+    "revision": "20a640f91d50672eb7d0",
     "url": "/cv-react/static/js/main.1674bd77.chunk.js"
   },
   {
@@ -20,11 +20,11 @@ self.__precacheManifest = [
     "url": "/cv-react/static/js/2.dfc363ba.chunk.js"
   },
   {
-    "revision": "87b1c498371429f6b79e",
-    "url": "/cv-react/static/css/main.0dd4a0b2.chunk.css"
+    "revision": "20a640f91d50672eb7d0",
+    "url": "/cv-react/static/css/main.a005d334.chunk.css"
   },
   {
-    "revision": "106114553c895ca1404d7774486fcee9",
+    "revision": "f4afe6aa35b400372ec6be2398efc17b",
     "url": "/cv-react/index.html"
   }
 ];

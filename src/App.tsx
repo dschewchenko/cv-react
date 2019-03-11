@@ -6,6 +6,7 @@ import Profile from "./pages/profile/Profile";
 import Experience from "./pages/experience/Experience";
 import Skills from "./pages/skills/Skills";
 import Contacts from "./pages/contacts/Contacts";
+import Navigation from "./navigation/Navigation";
 import Footer from "./footer/Footer";
 
 export default class App extends Component {
@@ -13,6 +14,7 @@ export default class App extends Component {
     return (
       <Router basename="/cv-react">
         <div className="app">
+          <Navigation />
           <main>
             <Switch>
               <Route exact path="/" component={Profile} />

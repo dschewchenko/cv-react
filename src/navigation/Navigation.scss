@@ -1,0 +1,27 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: transparent;
+  transition: background-color 350ms;
+
+  &_scrolled {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__link {
+    display: block;
+    margin-right: 16px;
+    padding: 8px;
+    text-decoration: none;
+
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}

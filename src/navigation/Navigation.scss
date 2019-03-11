@@ -27,9 +27,17 @@
       text-decoration: underline;
     }
 
+    &:last-of-type {
+      margin-right: -6px;
+    }
+
     @media screen and (min-width: 600px) {
       margin-left: 16px;
       padding: 8px;
+
+      &:last-of-type {
+        margin-right: -8px;
+      }
     }
   }
 }

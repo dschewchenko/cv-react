@@ -5,6 +5,7 @@
   right: 0;
   background-color: transparent;
   transition: background-color 350ms;
+  z-index: 1;
 
   > .container {
     display: flex;

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import debounce from "lodash/debounce";
+import throttle from "lodash/throttle";
 import "./Navigation.scss";
 
 export default class Navigation extends Component<{}, NavigationState> {
   public constructor(props: any) {
     super(props);
     this.state = { isScrolled: false };
-    this.debouncedHandleScroll = debounce(this.handleScroll, 50).bind(this);
+    this.debouncedHandleScroll = throttle(this.handleScroll, 50).bind(this);
   }
 
   public componentDidMount() {

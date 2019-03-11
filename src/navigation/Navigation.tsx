@@ -34,18 +34,20 @@ export default class Navigation extends Component<{}, NavigationState> {
     }
     return (
       <header className={className}>
-        <NavLink exact to="/" className="navigation__link">
-          Profile
-        </NavLink>
-        <NavLink to="/experience" className="navigation__link">
-          Experience
-        </NavLink>
-        <NavLink to="/skills" className="navigation__link">
-          Skills
-        </NavLink>
-        <NavLink to="/contacts" className="navigation__link">
-          Contacts
-        </NavLink>
+        <div className="container">
+          <NavLink exact to="/" className="navigation__link">
+            Profile
+          </NavLink>
+          <NavLink to="/experience" className="navigation__link">
+            Experience
+          </NavLink>
+          <NavLink to="/skills" className="navigation__link">
+            Skills
+          </NavLink>
+          <NavLink to="/contacts" className="navigation__link">
+            Contacts
+          </NavLink>
+        </div>
       </header>
     );
   }

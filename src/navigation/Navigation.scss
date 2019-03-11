@@ -3,12 +3,15 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
   background-color: transparent;
   transition: background-color 350ms;
+
+  > .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+  }
 
   &_scrolled {
     background-color: rgba(0, 0, 0, 0.6);
@@ -16,12 +19,17 @@
 
   &__link {
     display: block;
-    margin-right: 16px;
-    padding: 8px;
+    margin-right: 12px;
+    padding: 6px;
     text-decoration: none;
 
     &.active {
       text-decoration: underline;
+    }
+
+    @media screen and (min-width: 600px) {
+      margin-left: 16px;
+      padding: 8px;
     }
   }
 }
